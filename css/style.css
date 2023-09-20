@@ -1,0 +1,344 @@
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+/* font-family: 'Patrick Hand SC', cursive; */
+/* Colors */
+/* Colors */
+/* Header */
+header {
+  background-color: #027E2A;
+  color: #fff;
+}
+header #header-container {
+  padding: 15px 200px;
+}
+
+#logo-title #logo {
+  width: 100px;
+  padding-right: 10px;
+}
+#logo-title h1 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 4em;
+}
+#logo-title p {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+#form {
+  height: 40px;
+}
+#form select {
+  width: 250px;
+  font-size: 1em;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+/****************************Responsive**************************/
+@media screen and (max-width: 1360px) {
+  header #header-container {
+    padding: 15px 100px;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  #form select {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 870px) {
+  #logo-title #logo {
+    width: 80px;
+  }
+  #logo-title h1 {
+    font-size: 3em;
+  }
+  #logo-title p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 780px) {
+  header #header-container {
+    flex-direction: column;
+    align-items: center !important;
+    padding: 15px 0px;
+  }
+  #logo-title {
+    padding-bottom: 20px;
+  }
+  #form select {
+    margin-right: 0;
+  }
+}
+/* Colors */
+/* Hero */
+#hero {
+  height: 700px;
+  background-image: url("../images/biomarket-static.png");
+  background-position: left;
+  background-size: cover;
+}
+#hero #hero-container {
+  width: 60%;
+  height: 500px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(252, 252, 252, 0.8);
+  padding: 20px 80px;
+}
+#hero #hero-container h2 {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 3.3em;
+}
+#hero #hero-container p {
+  font-size: 2.2em;
+}
+
+#panier {
+  width: 150px;
+}
+
+#fleche {
+  width: 70px;
+}
+
+/****************************Responsive**************************/
+@media screen and (max-width: 1475px) {
+  #hero {
+    height: 600px;
+  }
+  #hero #hero-container {
+    width: 50%;
+    height: 400px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(252, 252, 252, 0.8);
+    padding: 20px 80px;
+  }
+  #hero #hero-container h2 {
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 2.3em;
+  }
+  #hero #hero-container p {
+    font-size: 1.2em;
+  }
+  #panier {
+    width: 130px;
+  }
+  #fleche {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 780px) {
+  #hero {
+    height: 600px;
+  }
+  #hero #hero-container {
+    width: 70%;
+    height: 430px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(252, 252, 252, 0.8);
+    padding: 20px 60px;
+  }
+  #hero #hero-container h2 {
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 2em;
+  }
+  #hero #hero-container p {
+    font-size: 1em;
+  }
+  #panier {
+    width: 110px;
+  }
+  #fleche {
+    width: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  #hero {
+    height: 600px;
+  }
+  #hero #hero-container {
+    width: 80%;
+    height: 480px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+  }
+  #hero #hero-container h2 {
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 1.7em;
+  }
+  #hero #hero-container p {
+    font-size: 0.8em;
+  }
+  #panier {
+    width: 80px;
+  }
+  #fleche {
+    width: 30px;
+  }
+}
+/* Colors */
+#services {
+  height: 850px;
+  margin: 0 150px;
+}
+#services #service-container {
+  padding: 0 20px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 3.6em;
+}
+h3 span {
+  color: #02a437;
+}
+
+.services-blocs {
+  height: 600px;
+  width: 400px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+  font-size: 1.5em;
+}
+.services-blocs img {
+  width: 60%;
+  padding-bottom: 30px;
+}
+
+#red-bloc {
+  background-color: #FF6268;
+}
+
+#orange-bloc {
+  background-color: #FBB540;
+}
+
+#green-bloc {
+  background-color: #027E2A;
+}
+
+/****************************Responsive**************************/
+@media screen and (max-width: 1570px) {
+  #services {
+    height: 750px;
+    margin: 0 100px;
+  }
+  #services .services-blocs {
+    height: 500px;
+    width: 300px;
+    font-size: 1.3em;
+  }
+  #services .services-blocs img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  #services {
+    height: 650px;
+    margin: 0 100px;
+  }
+  #services .services-blocs {
+    height: 400px;
+    width: 200px;
+    font-size: 1.1em;
+  }
+  #services .services-blocs img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 870px) {
+  #services {
+    height: 650px;
+    margin: 0;
+  }
+  #services .services-blocs {
+    height: 400px;
+    width: 200px;
+    font-size: 0.9em;
+  }
+  #services .services-blocs img {
+    width: 50%;
+  }
+  h3 {
+    font-size: 2.6em;
+  }
+}
+@media screen and (max-width: 660px) {
+  #services {
+    height: 1500px;
+    margin: 0;
+  }
+  #services #services-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #services #services-container .services-blocs {
+    height: 400px;
+    width: 300px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  #services #services-container .services-blocs img {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  h3 {
+    font-size: 2.4em;
+  }
+}
+/* Colors */
+footer {
+  height: 130px;
+  background-color: #cbcbcb;
+  font-size: 1.5em;
+  padding: 0 150px;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+footer #facebook {
+  height: 70px;
+  padding-left: 170px;
+}
+
+/****************************Responsive**************************/
+@media screen and (max-width: 940px) {
+  footer {
+    height: 100px;
+    font-size: 1.3em;
+    padding: 0 100px;
+  }
+  footer #facebook {
+    height: 50px;
+    padding-left: 80px;
+  }
+}
+@media screen and (max-width: 560px) {
+  footer {
+    height: 80px;
+    font-size: 1.1em;
+    padding: 0 20px;
+  }
+  footer #facebook {
+    height: 30px;
+    padding-left: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

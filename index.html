@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomarket</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+    <header>
+        <div id="header-container" class="container-fluid d-flex justify-content-between align-items-end">
+            <div id="logo-title" class="d-flex align-items-end">
+                <div><img id="logo" src="images/logo.png" alt="logo Biomarket"></div>
+                <div>
+                    <h1>BIO MARKET</h1>
+                    <p>C'est bio et c'est bon</p>
+                </div>
+            </div>
+            <div id="form">
+                <select>
+                    <option selected>Choisissez un produit</option>
+                    <optgroup label="Légumes">
+                        <option value="haricots_verts">Haricots verts</option>
+                        <option value="petits_pois">Petits pois</option>
+                        <option value="radis">Radis</option>
+                        <option value="salade">Salade</option>
+                        <option value="oignons">Oignons</option>
+                        <option value="choux">Choux</option>
+                        <option value="courgette">Courgette</option>
+                      </optgroup>
+                      <optgroup label="Fruits">
+                    <option value="banane">banane</option>
+                    <option value="fraise">Fraise</option>
+                    <option value="pomme">Pomme</option>
+                    <option value="poire">Poire</option>
+                    <option value="mangue">Mangue</option>
+                    <option value="orange">Orange</option>
+                  </select>
+                  <select>
+                    <option selected>Choisissez une région</option>
+                    <option value="1">Pays de la Loire</option>
+                    <option value="2">Centre Val de Loire</option>
+                    <option value="3">Normandie</option>
+                  </select>
+            </div>
+        </div>
+    </header>
+
+<!-- Hero -->    
+
+    <section id="hero">
+            <div class="d-flex  flex-column align-items-center justify-content-around">
+                <div id="hero-container" class="container-fluid d-flex flex-column align-items-center justify-content-around">
+                    <img id="panier" src="pictos/panier.svg" alt="">
+                    <h2 class="text-center">LES PRODUITS DU JARDIN DANS VOTRE ASSIETTE!</h2>
+                    <p class="text-center">Le meilleur endroit pour rester en bonne santé en consommant intelligemment !</p>
+                </div>
+                <div>
+                    <img id="fleche" src="pictos/fleche-bas.svg" alt="">
+                </div>
+            </div>
+    </section>
+
+<!-- Services -->
+
+    <section id="services">
+        <div>
+            <div>
+                <h3>DU <span>BIO</span> DANS VOTRE ASSIETTE !</h3>
+            </div>
+            <div id="services-container" class=" container-fluid d-flex justify-content-between align-items-center">
+                <div id="red-bloc" class="services-blocs container-fluid d-flex flex-column align-items-center justify-content-center">
+                    <img src="pictos/local.svg" alt="">
+                    <p class="fw-bold">Produits locaux</p>
+                    <p class="text-justify">Nos meilleures adresses pour une relation directe avec 
+                        les producteurs et un soutien à l'économie locale.</p>
+                </div>
+                <div id="orange-bloc" class="services-blocs container-fluid d-flex flex-column align-items-center justify-content-center">
+                    <img src="pictos/saison.svg" alt="">
+                    <p class="fw-bold">A chacun sa saison</p>
+                    <p class="text-justify">Qualité rime avec saisonnalité ! Suivez notre calendrier 
+                        pour découvrir nos fruits et légumes oubliés.</p>
+                </div>
+                <div id="green-bloc" class="services-blocs container-fluid d-flex flex-column align-items-center justify-content-center">
+                    <img src="pictos/pouce.svg" alt="">
+                    <p class="fw-bold">Des prix bas toute l'année</p>
+                    <p class="text-justify">Le bio trop cher c'est terminé! Nous vous prommetons les 
+                        meilleurs prix tout en vous garantissant la qualité de nos produits.</p>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+<!-- Footer -->
+
+    <footer class="d-flex justify-content-between align-items-center">
+        <div>
+            <p>Crédits :</p>
+        </div>
+        <div class="d-flex align-items-center">
+            <p class="m-0">Contact</p>
+            <img id="facebook" src="pictos/facebook.svg" alt="">
+        </div>
+
+
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>    
+</html>

@@ -1,0 +1,122 @@
+@import 'variables';
+
+/* Hero */
+
+#hero {
+    height: 700px;
+    background-image: url("../images/biomarket-static.png");
+    background-position: left;
+    background-size: cover;
+    #hero-container {
+        width: 60%;
+        height: 500px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        background-color:rgb(252, 252, 252, 0.8);
+        padding: 20px 80px;
+        h2 {
+            font-family: 'Patrick Hand SC', cursive;
+            font-size: 3.3em;
+        }
+        p {
+            font-size: 2.2em;
+        }
+    }
+}
+
+#panier {
+    width: 150px;
+}
+
+#fleche {
+    width: 70px;
+}
+
+
+/****************************Responsive**************************/
+
+@media screen and (max-width: 1475px) {
+    #hero {
+        height: 600px;
+    }
+    #hero #hero-container {
+        width: 50%;
+        height: 400px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        background-color:rgb(252, 252, 252, 0.8);
+        padding: 20px 80px;
+        h2 {
+            font-family: 'Patrick Hand SC', cursive;
+            font-size: 2.3em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    }
+    #panier {
+        width: 130px;
+    }
+    
+    #fleche {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #hero {
+        height: 600px;
+    }
+    #hero #hero-container {
+        width: 70%;
+        height: 430px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        background-color:rgb(252, 252, 252, 0.8);
+        padding: 20px 60px;
+        h2 {
+            font-family: 'Patrick Hand SC', cursive;
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+    #panier {
+        width: 110px;
+    }
+    
+    #fleche {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #hero {
+        height: 600px;
+    }
+    #hero #hero-container {
+        width: 80%;
+        height: 480px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        padding: 20px 40px;
+        h2 {
+            font-family: 'Patrick Hand SC', cursive;
+            font-size: 1.7em;
+        }
+        p {
+            font-size: 0.8em;
+        }
+    }
+    #panier {
+        width: 80px;
+    }
+    
+    #fleche {
+        width: 30px;
+    }
+}
